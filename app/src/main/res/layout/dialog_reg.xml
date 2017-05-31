@@ -3,29 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <EditText
-        android:id="@+id/editTxtUsrId"
+        android:id="@+id/editTxtRegUsrId"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:hint="아이디" />
 
     <EditText
-        android:id="@+id/editTxtUsrPwd"
+        android:id="@+id/editTxtRegUsrPwd"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:hint="비밀번호" />
 
-    <Button
-        android:id="@+id/btnSgnIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign in" />
+    <EditText
+        android:id="@+id/editTxtRegUsrName"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:hint="닉네임" />
 
     <Button
-        android:id="@+id/btnSgnUp"
+        android:id="@+id/btnRegCom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign up" />
+        android:text="완료"/>
 </LinearLayout>
