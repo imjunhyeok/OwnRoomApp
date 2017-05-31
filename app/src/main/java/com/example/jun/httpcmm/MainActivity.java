@@ -1,8 +1,7 @@
 package com.example.jun.httpcmm;
 
-import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -10,13 +9,6 @@ import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
     TextView txtView;
@@ -49,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 txtView.setText(result);
             }
-        }).execute("http://192.168.1.5:3000/user/info");
+        }).execute("http://192.168.0.6:3000/user/info");
     }
 }
