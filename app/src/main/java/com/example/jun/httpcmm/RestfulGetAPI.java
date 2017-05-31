@@ -40,12 +40,11 @@ public class RestfulGetAPI extends AsyncTask<String, Void, String> {
             // 서버 Response Data를 JSON 형식의 타입으로 요청
             //conn.setRequestProperty("Accept", "application/json");
 
-            /**** 파라미터 있을 경우
             for (int i = 1; i < params.length; i++) {
                 String[] pair = params[i].split("=");
                 conn.setRequestProperty(pair[0], pair[1]);
             }
-            ******/
+
             InputStream is = conn.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
             String line = "";

@@ -6,12 +6,12 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/usrId"
+        android:id="@+id/editTxtUsrId"
         android:layout_width="100dp"
         android:layout_height="50dp" />
 
     <EditText
-        android:id="@+id/usrPwd"
+        android:id="@+id/editTxtUsrPwd"
         android:layout_width="100dp"
         android:layout_height="50dp" />
 
